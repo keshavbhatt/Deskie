@@ -1,8 +1,0 @@
-module Mut.Themes
-CheckBoxPalette 0.1 CheckBoxPalette.qml
-ButtonPalette 0.1 ButtonPalette.qml
-ElementPalette 0.1 ElementPalette.qml
-TextFieldPalette 0.1 TextFieldPalette.qml
-SwitchPalette 0.1 SwitchPalette.qml
-Palette 0.1 Palette.qml
-singleton Theme 0.1 Theme.qml

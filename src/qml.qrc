@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>DialogsPage.qml</file>
+        <file>icons/arrow_back.svg</file>
+        <file>icons/apps.svg</file>
+        <file>icons/more_vert.svg</file>
+        <file>icons/hamburger.svg</file>
+        <file>icons/done.svg</file>
+        <file>ScrollBar.qml</file>
+        <file>CustomProgressBar.qml</file>
+        <file>storage.js</file>
+    </qresource>
+</RCC>

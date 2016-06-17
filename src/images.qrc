@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/1.jpg</file>
+        <file>images/2.jpg</file>
+        <file>images/3.jpg</file>
+        <file>images/4.jpg</file>
+        <file>images/monitor_bg.png</file>
+        <file>images/slide_arrow_right.png</file>
+        <file>images/slider_arrow_left.png</file>
+        <file>images/progress.gif</file>
+        <file>images/scrollbar.png</file>
+        <file>images/main_bg.png</file>
+        <file>images/image.php.jpeg</file>
+        <file>images/3.png</file>
+        <file>images/me.jpg</file>
+        <file>icons/f.png</file>
+        <file>icons/g.png</file>
+        <file>icons/t.png</file>
+    </qresource>
+</RCC>

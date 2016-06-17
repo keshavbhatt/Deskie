@@ -1,0 +1,48 @@
+name: deskie
+version: 1.0
+summary: A powerful and feature rich wallpaper changer
+description: Deskie is a powerful and feature rich wallpaper changer app for gnome desktop enivironment.
+confinement: strict
+
+apps:
+  deskie:
+    command: qt5-launch opt/deskie/bin/deskie
+    plugs:
+      - network
+      - network-bind
+      - unity7
+      - home
+      - x11
+      - network-manager
+      - opengl
+parts:
+  glue:
+      plugin: copy
+      files:
+         Mut: opt/deskie/bin/
+         modules/*: opt/deskie/bin/
+  application:
+    plugin: qmake
+    source: src/
+    build-packages:
+      - qtbase5-dev
+      - libindicator3-dev
+      - libindicator-dev
+      - libappindicator-dev
+      - libnotify-dev
+    stage-packages:
+      # Here for the plugins-- they're not linked in automatically.
+      # - libegl1-mesa
+      # - libgdk-pixbuf2.0-0
+      - libqt5gui5
+      - libqt5svg5
+      # - libindicator3-dev
+      - libindicator-dev
+      - libappindicator-dev
+      # - libnotify-dev
+      - libqt5qml5
+      - libqt5network5
+      - libqt5gui5-gles
+      - libqt5core5a
+      - libqt5widgets5
+    after: [qt5conf] # A wiki part
